@@ -8,17 +8,19 @@ export default function Hero() {
         {/* Left Content */}
         <div className="space-y-8">
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-            Expert to <br />
-            Digitalise Your <br />
-            <Image 
-  src="/Frame 1229.gif" 
-  alt="Expert to Digitalise Your Growth" 
-  width={300} 
-  height={300} 
-  className="mx-auto md:mx-0 rounded-lg"
-/>
-
-          </h1>
+  Expert to <br />
+  Digitalise <br />
+  <span className="inline-flex items-center gap-3">
+    Your
+    <Image 
+      src="/Frame 1229.gif" 
+      alt="Expert to Digitalise Your Growth" 
+      width={250}   // smaller so it aligns better
+      height={250} 
+      className="rounded-lg"
+    />
+  </span>
+</h1>
           <p className="text-gray-300 text-lg max-w-lg">
             We are constantly growing or learning and improving. Enter your the personal real estate sanctuary, where finding the ideal home is
           </p>

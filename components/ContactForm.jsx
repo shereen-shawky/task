@@ -31,7 +31,7 @@ export default function ContactForm() {
         <div className="text-white space-y-8">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <Image src="/frame.gif" alt="Logo" width={50} height={50} className="rounded-full object-contain" />
+            <Image src="/Frame.gif" alt="Logo" width={50} height={50} className="rounded-full object-contain" />
           </div>
 
           {/* Heading */}

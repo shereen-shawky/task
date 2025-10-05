@@ -22,7 +22,7 @@ export default function FooterNewsletter() {
               {/* Center Logo + Text */}
               <div className="flex flex-col items-center gap-3">
                 <Image 
-                  src="/frame.gif" 
+                  src="/Frame.gif" 
                   alt="Logo" 
                   width={60} 
                   height={60} 

@@ -9,7 +9,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
           <Image 
-            src="/frame.gif" 
+            src="/Frame.gif" 
             alt="Logo" 
             width={50} 
             height={50} 
